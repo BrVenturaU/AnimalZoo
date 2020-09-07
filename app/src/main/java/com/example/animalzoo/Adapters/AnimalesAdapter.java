@@ -84,7 +84,7 @@ public class AnimalesAdapter extends RecyclerView.Adapter<AnimalesAdapter.ViewHo
     }
 
     public void setAnimalData(Animal animal, ViewHolder holder){
-        String descripcionRecortada = animalService.substringAnimalDescription(context.getString(animal.getDescripcion()), 50);
+        String descripcionRecortada = animalService.substringAnimalDescription(context.getString(animal.getDescripcion()), 100);
         holder.tvNombreAnimal.setText(animal.getNombre());
         holder.tvDescripcionAnimal.setText(descripcionRecortada);
         holder.imvIcAnimal.setImageResource(animal.getIcono());

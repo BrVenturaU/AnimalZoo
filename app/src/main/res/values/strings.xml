@@ -176,6 +176,85 @@
     <string name="camada_avestruz">Nido comunal, hembra dominante pone de 5 a 11 huevos y las demás de 2 a 6 cada una</string>
     <string name="gestacion_avestruz">42-48 días</string>
 
+    <!--Camaleon-->
+    <string name="nombre_camaleon">Camaleón</string>
+    <string name="descripcion_camaleon">
+       Los camaleones son una familia, Chamaeleonidae, de pequeños saurópsidos escamosos.
+        Existen cerca de 161 especies de camaleones, la mayor parte de ellas en África al sur del Sáhara.
+    </string>
+    <string name="nombre_cientifico_camaleon">Chamaeleonidae</string>
+    <string name="clase_camaleon">Lepidosauromorpha</string>
+    <string name="orden_camaleon">Squamata</string>
+    <string name="familia_camaleon">Chamaeleonidae</string>
+    <string name="alimento_camaleon">Come insectos</string>
+    <string name="habitat_camaleon">Montañas, junglas, sabanas y a veces desiertos y estepas.</string>
+    <string name="camada_camaleon">suelen oscilar entre 6 y 20 huevos.</string>
+    <string name="gestacion_camaleon">3-6 semanas después de la fecundación</string>
+
+    <!--Cocodrilo-->
+    <string name="nombre_cocodrilo">Cocodrilo</string>
+    <string name="descripcion_cocodrilo">
+       Reptil de gran tamaño (de 3 a 10 m de largo, según las especies), de color marrón verdoso y piel cubierta de escamas muy duras;
+        sus patas tienen una membrana entre los dedos para nadar, la cola es larga, aplanada lateralmente y con dos crestas de poca altura
+        en su parte superior, los dientes fuertes y afilados, y el hocico alargado; es carnívoro y muy temible por su voracidad; habita
+        en los grandes ríos de las regiones intertropicales.
+    </string>
+    <string name="nombre_cientifico_cocodrilo">Crocodylidae</string>
+    <string name="clase_cocodrilo">Sauropsida </string>
+    <string name="orden_cocodrilo">Crocodylidae</string>
+    <string name="familia_cocodrilo">Crocodylidae</string>
+    <string name="alimento_cocodrilo">Se alimentan principalmente de vertebrados (peces, reptiles y mamíferos), y algunas veces de invertebrados (moluscos y crustáceos), según la especie.</string>
+    <string name="habitat_cocodrilo">Los cocodrilos tienden a congregarse en hábitats de agua dulce como ríos, lagos, humedales y algunas veces en agua salobre.</string>
+    <string name="camada_cocodrilo">Puede ser tan sólo 10 huevos y hasta un máximo de 100 a la vez.</string>
+    <string name="gestacion_cocodrilo">suele rondar los 3 meses</string>
+
+    <!--Tiburon-->
+    <string name="nombre_tiburon">Tiburón</string>
+    <string name="descripcion_tiburon">
+       Pez marino carnívoro de esqueleto cartilaginoso, cuerpo alargado y esbelto, entre cinco y siete aberturas branquiales,
+        una o dos aletas dorsales, una aleta caudal heterocerca, cabeza aplanada con la boca muy grande en su parte inferior,
+        y dientes muy afilados; hay muchas especies diferentes y a menudo se emplea para referirse a cualquier animal del suborden de los escualos.
+    </string>
+    <string name="nombre_cientifico_tiburon">Selachimorpha</string>
+    <string name="clase_tiburon">Chondrichthyes</string>
+    <string name="orden_tiburon">Lamniformes</string>
+    <string name="familia_tiburon">Lamnidae</string>
+    <string name="alimento_tiburon">Se alimentan principalmente de peces, crustáceos, moluscos, plancton e incluso otros tiburones.</string>
+    <string name="habitat_tiburon">Pudiendo vivir en aguas poco profundas, en el fondo del océano o mar abierto, tendiendo a preferir zonas tropicales y templadas.</string>
+    <string name="camada_tiburon">Pueden tener hasta 100 crías por camada.</string>
+    <string name="gestacion_tiburon">Su periodo de gestación varia entre los 12 meses y 42 meses (tres años y medio)</string>
+
+    <!--Rana-->
+    <string name="nombre_rana">Rana</string>
+    <string name="descripcion_rana">
+       Anfibio sin cola, de piel lisa y brillante, tronco rechoncho, cabeza grande y ojos saltones,
+        con las extremidades posteriores muy desarrolladas para saltar; se alimenta de insectos que caza con su
+        larga lengua y habita en charcos y lagunas; su carne es comestible.
+    </string>
+    <string name="nombre_cientifico_rana">Bufonidae</string>
+    <string name="clase_rana">Amphibia</string>
+    <string name="orden_rana">Bufónidos</string>
+    <string name="familia_rana">Bufónidos</string>
+    <string name="alimento_rana">se alimentan de todo tipo de insectos, gusanos, arañas.</string>
+    <string name="habitat_rana">pudiendo vivir en aguas estancadas: balsas de riego, albercas.</string>
+    <string name="camada_rana">Pueden tener numerosos de hasta 12 000 huevos.</string>
+    <string name="gestacion_rana">eclosionan en un período de tiempo que va de 5 a 40 días</string>
+
+    <!--Tortuga-->
+    <string name="nombre_tortuga">Tortuga</string>
+    <string name="descripcion_tortuga">
+       Reptil cuyo cuerpo está protegido por un duro caparazón de placas óseas, dentro del cual pueden retraer la cabeza,
+        las extremidades y la cola; con cuatro patas cortas, cuello que puede alargar y encoger, y boca sin dientes;
+        se alimenta principalmente de vegetales y se caracteriza por caminar muy lentamente; hay especies terrestres y especies acuáticas, de tamaños muy diversos.
+    </string>
+    <string name="nombre_cientifico_tortuga">Testudines</string>
+    <string name="clase_tortuga">Sauropsida</string>
+    <string name="orden_tortuga">Testudines o Linnaeus</string>
+    <string name="familia_tortuga">quelonios</string>
+    <string name="alimento_tortuga">se alimentan de las verduras y las frutas como, apio, berros, endibias, melón y sandía, fresas, melocotón, tomate y , pepino.</string>
+    <string name="habitat_tortuga">La mayoría de las tortugas terrestres hacen vida en territorios secos, en los cuales la vegetación es árida y los veranos pueden ser intensos, otras son habitantes de zonas tropicales.</string>
+    <string name="camada_tortuga">Pueden poner entre 1 y 30 huevos en una sola puesta.</string>
+    <string name="gestacion_tortuga">La tortuga tarda nueve meses de gestación</string>
 
 
     <!--Descripciones de los cuentos-->

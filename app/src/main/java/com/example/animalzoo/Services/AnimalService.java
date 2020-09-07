@@ -73,6 +73,31 @@ public class AnimalService implements IAnimalService {
                 R.string.clase_avestruz, R.string.orden_avestruz, R.string.familia_avestruz, R.string.alimento_avestruz,
                 R.string.habitat_avestruz, R.string.camada_avestruz, R.string.gestacion_avestruz);
 
+        Animal camaleon = new Animal(12, R.string.nombre_camaleon, R.string.descripcion_camaleon,
+                R.drawable.info_camaleon, R.raw.camaleon, R.drawable.ic_camaleon, true, R.string.nombre_cientifico_camaleon,
+                R.string.clase_camaleon, R.string.orden_camaleon, R.string.familia_camaleon, R.string.alimento_camaleon,
+                R.string.habitat_camaleon, R.string.camada_camaleon, R.string.gestacion_camaleon);
+
+        Animal cocodrilo = new Animal(13, R.string.nombre_cientifico_cocodrilo, R.string.descripcion_cocodrilo,
+                R.drawable.info_cocodrilo, R.raw.cocodrilo, R.drawable.ic_cocodrilo, true, R.string.nombre_cientifico_cocodrilo,
+                R.string.clase_cocodrilo, R.string.orden_cocodrilo, R.string.familia_cocodrilo, R.string.alimento_cocodrilo,
+                R.string.habitat_cocodrilo, R.string.camada_cocodrilo, R.string.gestacion_cocodrilo);
+
+        Animal tiburon = new Animal(14, R.string.nombre_tiburon, R.string.descripcion_tiburon,
+                R.drawable.info_tiburon, R.raw.tiburon, R.drawable.ic_tiburon, true, R.string.nombre_cientifico_tiburon,
+                R.string.clase_tiburon, R.string.orden_tiburon, R.string.familia_tiburon, R.string.alimento_tiburon,
+                R.string.habitat_tiburon, R.string.camada_tiburon, R.string.gestacion_tiburon);
+
+        Animal rana = new Animal(15, R.string.nombre_rana, R.string.descripcion_rana,
+                R.drawable.info_rana, R.raw.rana, R.drawable.ic_rana, true, R.string.nombre_cientifico_rana,
+                R.string.clase_rana, R.string.orden_rana, R.string.familia_rana, R.string.alimento_rana,
+                R.string.habitat_rana, R.string.camada_rana, R.string.gestacion_rana);
+
+        Animal tortuga = new Animal(16, R.string.nombre_tortuga, R.string.descripcion_tortuga,
+                R.drawable.info_tortuga, R.raw.tortuga, R.drawable.ic_tortuga, true, R.string.nombre_cientifico_tortuga,
+                R.string.clase_tortuga, R.string.orden_tortuga, R.string.familia_tortuga, R.string.alimento_tortuga,
+                R.string.habitat_tortuga, R.string.camada_tortuga, R.string.gestacion_tortuga);
+
         //Agregando animales a la lista
         ArrayList<Animal> Animales = new ArrayList<>();
         Animales.add(mono);
@@ -86,6 +111,11 @@ public class AnimalService implements IAnimalService {
         Animales.add(tigre);
         Animales.add(buho);
         Animales.add(avestruz);
+        Animales.add(camaleon);
+        Animales.add(cocodrilo);
+        Animales.add(tiburon);
+        Animales.add(rana);
+        Animales.add(tortuga);
 
         return Animales;
     }
@@ -114,7 +144,7 @@ public class AnimalService implements IAnimalService {
     public String substringAnimalDescription(String descripcion, Integer finalSub){
         finalSub = finalSub <= 100 && finalSub >= 1 ? finalSub : 100;
         String shortDescription = descripcion.length() > finalSub ?
-                descripcion.substring(0, finalSub):
+                descripcion.substring(0, finalSub)+"...":
                 descripcion;
         return  shortDescription;
     }
