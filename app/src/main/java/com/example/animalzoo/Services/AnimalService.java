@@ -5,6 +5,7 @@ import com.example.animalzoo.Interfaces.IAnimalService;
 import com.example.animalzoo.R;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class AnimalService implements IAnimalService {
     public AnimalService(){
@@ -12,7 +13,7 @@ public class AnimalService implements IAnimalService {
     }
 
     @Override
-    public ArrayList<Animal> listOfAnimals(){
+    public List<Animal> listOfAnimals(){
         //Creando Animales
         Animal mono = new Animal(1, R.string.nombre_mono_araña, R.string.descripcion_mono_araña,
                 R.drawable.info_mono, R.raw.mono, R.drawable.ic_mono, false);
@@ -38,18 +39,18 @@ public class AnimalService implements IAnimalService {
                 R.drawable.info_avestruz, R.raw.avestruz, R.drawable.ic_avestruz, false);
 
         //Agregando animales a la lista
-        ArrayList<Animal> Animales = new ArrayList<>();
-        Animales.add(0, mono);
-        Animales.add(1, koala);
-        Animales.add(2, leopardo);
-        Animales.add(3, caballo);
-        Animales.add(4, puma);
-        Animales.add(5, jaguar);
-        Animales.add(6, elefante);
-        Animales.add(7, leon);
-        Animales.add(8, tigre);
-        Animales.add(9, buho);
-        Animales.add(10, avestruz);
+        List<Animal> Animales = new ArrayList<>();
+        Animales.add(mono);
+        Animales.add(koala);
+        Animales.add(leopardo);
+        Animales.add(caballo);
+        Animales.add(puma);
+        Animales.add(jaguar);
+        Animales.add(elefante);
+        Animales.add(leon);
+        Animales.add(tigre);
+        Animales.add(buho);
+        Animales.add(avestruz);
 
         return Animales;
 

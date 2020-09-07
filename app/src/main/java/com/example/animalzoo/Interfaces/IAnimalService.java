@@ -2,8 +2,8 @@ package com.example.animalzoo.Interfaces;
 
 import com.example.animalzoo.Entity.Animal;
 
-import java.util.ArrayList;
+import java.util.List;
 
 public interface IAnimalService {
-    ArrayList<Animal> listOfAnimals();
+    List<Animal> listOfAnimals();
 }

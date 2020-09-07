@@ -1,4 +1,6 @@
 package com.example.animalzoo.Services;
 
-public class CuentoService {
+import com.example.animalzoo.Interfaces.ICuentoService;
+
+public class CuentoService implements ICuentoService {
 }

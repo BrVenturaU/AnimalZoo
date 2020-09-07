@@ -7,6 +7,7 @@ import android.widget.Toast;
 
 import com.example.animalzoo.Entity.Animal;
 import com.example.animalzoo.Interfaces.IAnimalService;
+import com.example.animalzoo.Services.AnimalService;
 
 import java.util.ArrayList;
 
