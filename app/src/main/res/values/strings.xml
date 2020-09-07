@@ -1,3 +1,201 @@
 <resources>
     <string name="app_name">AnimalZoo</string>
+
+<!--Datos de los animales-->
+
+    <!--Mono Araña-->
+    <string name="nombre_mono_araña">Mono Araña</string>
+    <string name="descripcion_mono_araña">
+        Nombre científico: Arteles geoffroyii.
+        Clase: Mammalia.
+        Orden: Primate.
+        Familia: Cebidae.
+        Alimentación: Omnívora; principalmente frutas, nueces, semillas, yemas, flores, hojas, insectos arácnidos y huevos.
+        Habitat: Bosques tropicales.
+        Camada: Una cría.
+        Gestación: 226 a 232 días.
+    </string>
+
+    <!--Koala-->
+    <string name="nombre_koala">Koala</string>
+    <string name="descripcion_koala">
+        Nombre científico: Phascolarctos cinereus.
+        Clase: Mammalia.
+        Orden: Phascolarctos cinereus.
+        Familia: Phascolarctidae (Fascolárctidos o Falangéridos).
+        Alimentación:(herbívoro, carnívoro, omnívoro, etc.).
+        Habitat: vive en las zonas costeras de las regiones este y sur australianas
+        Camada: Como generalidad los Koalas no tienen mas de una cría en cada parto.
+        Gestación: 30-36 días.
+
+    </string>
+
+    <!--Leopardo-->
+    <string name="nombre_leopardo">Leopardo</string>
+    <string name="descripcion_leopardo">
+        Nombre científico: pantera pardus.
+        Clase: Mammalia.
+        Orden: carnívora.
+        Familia: Felidae.
+        Alimentación: carnívora; principalmente ungulados de pequeños y mediano tamaño, como gacelas, impalas y ciervos, animales domésticos, primates, roedores, aves y a veces artrópodos.
+        camada: 1 a 6 crías.
+        Gestación: 90 a 105 días.
+        Longevidad: 23 años.
+        Situación actual: En peligro de extinción.
+        Distribución geográfica: Del oeste de Turquía y península Malaya, sri Lanka , java y la mayor parte de África.
+
+    </string>
+
+    <!--Caballo-->
+    <string name="nombre_caballo">Caballo</string>
+    <string name="descripcion_caballo">
+        Nombre científico:  Equus caballus.
+        Clase: Mammalia.
+        Orden: Perissodactyla.
+        Familia: Equidae.
+        Alimentación: herbívora; se alimenta especialmente de plantas ricas en fíbras.
+        Habitat: zonas esteparias.
+        Camada: una cría.
+        Gestación: 11 meses.
+        situación actual:  Estable.
+        Distribución geográfica: actualmente se haya en todo el mundo.
+
+    </string>
+
+    <!--Puma-->
+    <string name="nombre_puma">Puma</string>
+    <string name="descripcion_puma">
+        Nombre científico: Felis concolor.
+        Clase: Mammalia.
+        Orden: Carnivora.
+        Familia: Felidae.
+        Alimentación: Carnivora; ciervos principalmente, otros ungulados, puercoespines, liebres y castores.
+        Camada: 1 a 6, siendo mas general 2 3 cachorros.
+        Gestación: 91 días.
+        Longevidad: 8 a 13 años.
+        situación actual: Vulnerable.
+        Distribución geográfica: Desde Canadá hasta el sur de Chile y la Patagonia.
+
+    </string>
+
+    <!--Jaguar-->
+    <string name="nombre_jaguar">Jaguar</string>
+    <string name="descripcion_jaguar">
+        Nombre científico: Panthera onca.
+        Clase: Mammalia.
+        Orden: Carnivora.
+        Familia: Felidae.
+        Alimentación: Carnívora; desde peces, sapos y aves, hasta pecaríes, venados y monos.
+        Habitat: Selva tropical, pantanos y campo abierto, incluso desiertos y pastizales.
+        Camada: 2 crías.
+        Gestaciones: 93 a 105 días.
+        Longevidad: 20 años en cautiverio.
+        situación actual: En peligro de extinción.
+        Distribución geográfica: Suroeste de Estados Unidos hasta la Patagonia.
+
+    </string>
+
+    <!--Elefante-->
+    <string name="nombre_elefante">Elefante</string>
+    <string name="descripcion_elefante">
+        Nombre científico: Loxodonta africana.
+        Clase: Mammalia.
+        Orden: Proboscidea.
+        Familia: Elephantidae.
+        Alimentación: Hervibora; hierva, arboles, corteza, frutas, hojas y ramas.
+        Habitat: Bosques tropicales, sabanas, estepas y matorrales semidesérticos.
+        Camada: 1 cria.
+        Gestación: 22 meses.
+        Longevidad: De 50 a 70 años.
+        Situación actual: En peligro de extinción.
+        Distribución geográfica: África, desde las costas del mar mediterráneo, hasta el cabo de Buena Esperanza y actualmente, sur del desierto del Sahara.
+    </string>
+
+    <!--Leon-->
+    <string name="nombre_leon">León</string>
+    <string name="descripcion_leon">
+        Nombre científico: Panthera leo.
+        Clase: Mammalia.
+        Orden: Carnivora.
+        Familia: Felidae.
+        Alimentación: Carnívora; principalmente animales de mediano y gran tamaño como ñues, impalas y otros antílopes, cebras, jirafas, búfalos y también carroña.
+        Habitat: Sabana, bosques abiertos y zonas arbustivas.
+        Camada: De 1 a 6 crías.
+        Gestación: 109 días.
+        Longevidad: 29 años en cautiverio.
+        situación actual: Vulnerable.
+        Distribución geográfica: África central y oriental.
+    </string>
+
+    <!--Tigre-->
+    <string name="nombre_tigre">Tigre</string>
+    <string name="descripcion_tigre">
+        Nombre científico: Panthera tigris tigris.
+        Clase: Mammalia.
+        Orden: carnívora.
+        Familia: Felidae.
+        Alimentación: carnívora; principalmente grandes mamíferos como jabalís, ciervos, búfalos y jaguares.
+        Habitat: Bosques tropicales, bosques perennifolios, pantanos, praderas y zonas rocosas.
+        Camada: 2 a 3 crías.
+        Gestación: 104 a 106.
+        Longevidad: 20 a 26 años.
+        situación actual: En peligro de extinción.
+        Distribución geográfica: Este de Turquía al Sureste de Siberia, península Malaya, Sumatra, Java y Bali.
+
+    </string>
+
+    <!--Buho-->
+    <string name="nombre_buho">Búho</string>
+    <string name="descripcion_buho">
+        Nombre científico: Bubo virginianus.
+        Clase: Aves.
+        Orden: Strigiformes.
+        Familia: Strigidae.
+        Alimentación: carnívora, pequeños mamíferos como: ratones, ratas y ardillas, aves, ranas, reptiles, entre otros animales.
+        Puesta: 2 a 5 huevos.
+        Incubación: 25 días.
+        Habitat: Bosques, tundras, desiertos, entre otros.
+        Longevidad: 28 años.
+        situación actual: Es estable.
+        Distribución geográfica:  Desde Alaska y la península del Labrador, hasta la tierra del fuego, Argentina.
+
+    </string>
+
+    <!--Avestruz-->
+    <string name="nombre_avestruz">Avestruz</string>
+    <string name="descripcion_avestruz">
+        Nombre científico: Struthio camelus.
+        Clase: Aves.
+        Orden: Strutioniformes.
+        Familia: Struthionidae.
+        Alimentación: Herbívora.
+        Puesta: Nido comunal, hembra dominante pone de 5 a 11 huevos y las demás de 2 a 6 cada una.
+        Incubación: 42-48 días.
+        Habitat: Sabana Africana.
+        Longevidad: 30 a 40 años.
+        situación actual: Estable.
+        Distribución geográfica: África.
+
+    </string>
+
+<!--Descripciones de los cuentos-->
+
+    <!--Juanito y el Zoo-->
+    <string name="nombre_cuento_juanito_zoo">Juanito y el Zoo</string>
+    <string name="descripcion_cuento_juanito_zoo">
+        Había una vez un niño llamado Juanito que nunca había ido a un zoológico, y un día de parte de la escuela harían una excursión así que convenció a sus padres.
+        Se lleno el gran día para Juanito en la entrada había una chica con una cámara colgada al cuello les hizo una foto que recogerían al salir. Y nada más al entrar se subieron en un tren divertidísimo, lleno de colores. Allí se anunciaban las paradas que haría el tren. La primera eran las aves donde había búhos, avestruz, loros, etc.; todos ellos con un gran plumaje.
+        La siguiente parada con el trenecillo fueron los monos. Eran muy divertidos, se tiraban a ellos mismos cáscaras de cacahuetes vacías para que los demás fueran corriendo a por ellas pensando que tenían algo. ¡Y saltaban de un sitio a otro sin caerse!
+        Siguiendo la visita, llegaron al sitio donde estaban los Koala, eran unos animales tan bonitos, con pelo muy suave.
+        Los pumas sí que parecían más peligrosos con un cuerpo enorme. De repente, uno de ellos gruño, y todos los que los estaban viendo dieron un salto hacia atrás, pero no pasaba nada, ya que había un gran muro que los separaba de la gente.
+        De ahí fueron a la caballería, donde había unos caballos tan hermosos haciendo posturas, jugando con pelotas, y dando grandes saltos mortales. Era maravilloso.
+        Después, el tren los llevó a ver a los grandes elefantes que emitían unos ruidos un poco extraños. También había cebras, patos, cocodrilos, camellos… Todo estaba muy tranquilo, pero de repente, unos de los niños compañero de Juanito sintió que pasaba algo extraño y dijo a sus amigos que fueran corriendo con ella.
+        De repente, un gran rugido del tigre les llamó la atención, y cuando quisieron darse cuenta, su jaula no estaba bien cerrada y de un gran salto el tigre salió de allí. Pareció que se había parado el mundo, de repente no se oía nada, pero los animales, presintieron todo con su olfato y los elefantes comenzaron a bramar, los monos a chillar, a rugir los leones…
+
+        Aquello daba un miedo horrible. Los cuidadores trataban de calmar a los animales. Pero era imposible, estaban muy nerviosos. Juanito y sus amigos tenían mucho miedo, casi no respiraban para que no las oyeran, pero de repente Juanito no pudo contener un estornudo y el tigre se dio cuenta y se paralizó, mirándolas fijamente. En cuanto ellos echaron a correr, el tigre salió detrás a toda velocidad.
+        De repente, en la zona de los osos panda encontraron la solución. Había una jaula vacía y abierta. Se pararon en frente y justo cuando ya casi estaba el tigre encima de ellas, tiró la cazadora la jaula y el tigre se pasó dentro y le dieron comida y se calmo
+        De pronto, todo el mundo empezó a salir de sus escondites, y todos muy contentos daban las gracias a Juanito y amigos por salvarles de las zarpas del tigre. El encargado del zoo le dio las gracias llevándolas al delfinario a tocar a los delfines.
+
+    </string>
+    
 </resources>

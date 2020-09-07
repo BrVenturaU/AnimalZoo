@@ -2,15 +2,15 @@ package com.example.animalzoo.Entity;
 
 public class Cuento {
     private Integer Id;
-    private String Nombre;
-    private String Cuerpo;
+    private Integer Nombre;
+    private Integer Cuerpo;
     private Integer Imagen;
 
     public Cuento(){
 
     }
 
-    public Cuento(Integer id, String nombre, String cuerpo, Integer imagen) {
+    public Cuento(Integer id, Integer nombre, Integer cuerpo, Integer imagen) {
         Id = id;
         Nombre = nombre;
         Cuerpo = cuerpo;
@@ -25,19 +25,19 @@ public class Cuento {
         Id = id;
     }
 
-    public String getNombre() {
+    public Integer getNombre() {
         return Nombre;
     }
 
-    public void setNombre(String nombre) {
+    public void setNombre(Integer nombre) {
         Nombre = nombre;
     }
 
-    public String getCuerpo() {
+    public Integer getCuerpo() {
         return Cuerpo;
     }
 
-    public void setCuerpo(String cuerpo) {
+    public void setCuerpo(Integer cuerpo) {
         Cuerpo = cuerpo;
     }
 
