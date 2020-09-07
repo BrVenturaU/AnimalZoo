@@ -7,6 +7,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.LinearLayout;
+import android.widget.ScrollView;
 import android.widget.Switch;
 import android.widget.Toast;
 
@@ -24,7 +25,7 @@ public class ListadoAnimalesActivity extends AppCompatActivity implements View.O
     private IAnimalService animalService;
     private ArrayList<Animal> animales;
     private Switch swTipoSangre;
-    private LinearLayout linearLayout;
+    private ScrollView linearLayout;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
