@@ -1,8 +1,11 @@
 package com.example.animalzoo.Services;
 
+import android.text.BoringLayout;
+
 import com.example.animalzoo.Entity.Animal;
 import com.example.animalzoo.Interfaces.IAnimalService;
 import com.example.animalzoo.R;
+import com.example.animalzoo.Utils.AnimalType;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -13,7 +16,7 @@ public class AnimalService implements IAnimalService {
     }
 
     @Override
-    public List<Animal> listOfAnimals(){
+    public ArrayList<Animal> listOfAnimals(){
         //Creando Animales
         Animal mono = new Animal(1, R.string.nombre_mono_araña, R.string.descripcion_mono_araña,
                 R.drawable.info_mono, R.raw.mono, R.drawable.ic_mono, false, R.string.nombre_cientifico_mono,
@@ -71,7 +74,7 @@ public class AnimalService implements IAnimalService {
                 R.string.habitat_avestruz, R.string.camada_avestruz, R.string.gestacion_avestruz);
 
         //Agregando animales a la lista
-        List<Animal> Animales = new ArrayList<>();
+        ArrayList<Animal> Animales = new ArrayList<>();
         Animales.add(mono);
         Animales.add(koala);
         Animales.add(leopardo);
@@ -87,11 +90,48 @@ public class AnimalService implements IAnimalService {
         return Animales;
     }
 
+    public ArrayList<Animal> coldBloodAnimalsList(){
+        ArrayList<Animal> animales = listOfAnimals();
+        ArrayList<Animal> coldBloodAnimals = new ArrayList<>();
+        for (Animal animal : animales){
+            if(animal.getIsColdBlood())
+                coldBloodAnimals.add(animal);
+        }
+        return coldBloodAnimals;
+    }
+
+    public ArrayList<Animal> hotBloodAnimalsList(){
+        ArrayList<Animal> animales = listOfAnimals();
+        ArrayList<Animal> hotBloodAnimals = new ArrayList<>();
+        for (Animal animal : animales){
+            if(!animal.getIsColdBlood())
+                hotBloodAnimals.add(animal);
+        }
+
+        return hotBloodAnimals;
+    }
+
     public String substringAnimalDescription(String descripcion, Integer finalSub){
         finalSub = finalSub <= 100 && finalSub >= 1 ? finalSub : 100;
         String shortDescription = descripcion.length() > finalSub ?
                 descripcion.substring(0, finalSub):
                 descripcion;
         return  shortDescription;
+    }
+
+    public AnimalType coldBloodAnimalCount(){
+        AnimalType animalType;
+        Integer coldCount = 0, hotCount = 0;
+        List<Animal> animales = listOfAnimals();
+        for (Animal animal : animales){
+            if(animal.getIsColdBlood())
+                coldCount++;
+            else
+                hotCount++;
+        }
+
+        animalType = new AnimalType(coldCount, hotCount);
+
+        return animalType;
     }
 }

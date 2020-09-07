@@ -8,20 +8,55 @@
     android:orientation="vertical"
     android:paddingTop="16dp">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:text="@string/titulo_listado_layout"
-        android:textColor="@color/colorPrimaryDark"
-        android:textSize="24dp"
-        android:textStyle="bold"
-        android:layout_marginBottom="16dp"
-        />
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="16dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/titulo_listado_layout"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:layout_marginRight="8dp"
+            />
+        <Switch
+            android:id="@+id/swTipoSangre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Calientes" />
+    </LinearLayout>
+
+
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rvAnimales"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:id="@+id/layoutVacio"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:visibility="gone">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:src="@drawable/ic_animals_zoo"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No hay animales"
+            android:textSize="28dp"/>
+    </LinearLayout>
+
+
+
+
 
 </LinearLayout>

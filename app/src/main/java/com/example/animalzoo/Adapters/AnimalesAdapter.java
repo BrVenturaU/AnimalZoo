@@ -20,17 +20,18 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class AnimalesAdapter extends RecyclerView.Adapter<AnimalesAdapter.ViewHolder> implements View.OnClickListener{
+    private int ANIMAL_COUNT = 0;
     private Context context;
-    private List<Animal> animales;
+    private ArrayList<Animal> animales;
     private IAnimalService animalService;
     private View.OnClickListener listener;
 
     public AnimalesAdapter(){
-        animalService = new AnimalService();
     }
 
-    public void setData(){
-        animales = animalService.listOfAnimals();
+    public void setData(ArrayList<Animal> list, IAnimalService service){
+        animales = list;
+        animalService = service;
         notifyDataSetChanged();
     }
 
@@ -61,12 +62,9 @@ public class AnimalesAdapter extends RecyclerView.Adapter<AnimalesAdapter.ViewHo
 
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
-        Animal animal = animales.get(position);
 
-        String descripcionRecortada = animalService.substringAnimalDescription(context.getString(animal.getDescripcion()), 50);
-        holder.tvNombreAnimal.setText(animal.getNombre());
-        holder.tvDescripcionAnimal.setText(descripcionRecortada);
-        holder.imvIcAnimal.setImageResource(animal.getIcono());
+        Animal animal = animales.get(position);
+        setAnimalData(animal, holder);
     }
 
     @Override
@@ -83,5 +81,12 @@ public class AnimalesAdapter extends RecyclerView.Adapter<AnimalesAdapter.ViewHo
         if(listener!= null){
             listener.onClick(view);
         }
+    }
+
+    public void setAnimalData(Animal animal, ViewHolder holder){
+        String descripcionRecortada = animalService.substringAnimalDescription(context.getString(animal.getDescripcion()), 50);
+        holder.tvNombreAnimal.setText(animal.getNombre());
+        holder.tvDescripcionAnimal.setText(descripcionRecortada);
+        holder.imvIcAnimal.setImageResource(animal.getIcono());
     }
 }
