@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">AnimalZoo</string>
 
-<!--Datos de los animales-->
+    <!--Datos de los animales-->
 
     <!--Mono Araña-->
     <string name="nombre_mono_araña">Mono Araña</string>
@@ -178,7 +178,7 @@
 
     </string>
 
-<!--Descripciones de los cuentos-->
+    <!--Descripciones de los cuentos-->
 
     <!--Juanito y el Zoo-->
     <string name="nombre_cuento_juanito_zoo">Juanito y el Zoo</string>
@@ -197,5 +197,5 @@
         De pronto, todo el mundo empezó a salir de sus escondites, y todos muy contentos daban las gracias a Juanito y amigos por salvarles de las zarpas del tigre. El encargado del zoo le dio las gracias llevándolas al delfinario a tocar a los delfines.
 
     </string>
-    
+
 </resources>
