@@ -22,14 +22,15 @@ import java.util.List;
 public class AnimalesAdapter extends RecyclerView.Adapter<AnimalesAdapter.ViewHolder> implements View.OnClickListener{
     private Context context;
     private List<Animal> animales;
+    private IAnimalService animalService;
     private View.OnClickListener listener;
 
     public AnimalesAdapter(){
-
+        animalService = new AnimalService();
     }
 
-    public void setData(List<Animal> list){
-        animales = list;
+    public void setData(){
+        animales = animalService.listOfAnimals();
         notifyDataSetChanged();
     }
 
@@ -61,11 +62,11 @@ public class AnimalesAdapter extends RecyclerView.Adapter<AnimalesAdapter.ViewHo
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
         Animal animal = animales.get(position);
-        String descripcionRecortada = context.getString(animal.getDescripcion()).substring(0, 100)+"...";
 
+        String descripcionRecortada = animalService.substringAnimalDescription(context.getString(animal.getDescripcion()), 50);
         holder.tvNombreAnimal.setText(animal.getNombre());
         holder.tvDescripcionAnimal.setText(descripcionRecortada);
-        holder.imvIcAnimal.setImageResource(animal.getImagen());
+        holder.imvIcAnimal.setImageResource(animal.getIcono());
     }
 
     @Override

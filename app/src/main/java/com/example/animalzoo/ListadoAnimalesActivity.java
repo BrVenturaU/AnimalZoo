@@ -18,18 +18,15 @@ import java.util.List;
 public class ListadoAnimalesActivity extends AppCompatActivity {
     private RecyclerView recyclerView;
     private AnimalesAdapter animalesAdapter;
-    private IAnimalService animalService;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_listado_animales);
 
-        animalService = new AnimalService();
-
         recyclerView = findViewById(R.id.rvAnimales);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         animalesAdapter = new AnimalesAdapter();
-        animalesAdapter.setData(animalService.listOfAnimals());
+        animalesAdapter.setData();
 
         animalesAdapter.setOnclicListener(new View.OnClickListener() {
             @Override

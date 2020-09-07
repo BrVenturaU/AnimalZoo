@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">AnimalZoo</string>
+    <string name="app_name" translatable="false">AnimalZoo</string>
     <string name="titulo_listado_layout">Listado de Animales</string>
 
     <!--Datos de los animales-->
@@ -7,177 +7,212 @@
     <!--Mono Araña-->
     <string name="nombre_mono_araña">Mono Araña</string>
     <string name="descripcion_mono_araña">
-        Nombre científico: Arteles geoffroyii.
-        Clase: Mammalia.
-        Orden: Primate.
-        Familia: Cebidae.
-        Alimentación: Omnívora; principalmente frutas, nueces, semillas, yemas, flores, hojas, insectos arácnidos y huevos.
-        Habitat: Bosques tropicales.
-        Camada: Una cría.
-        Gestación: 226 a 232 días.
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry
+        standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
+        a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
+        remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
+        Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
     </string>
+
+    <string name="nombre_cientifico_mono">Arteles geoffroyii.</string>
+    <string name="clase_mono">Mammalia.</string>
+    <string name="orden_mono">Primate.</string>
+    <string name="familia_mono">Cebidae.</string>
+    <string name="alimento_mono">Omnívora; principalmente frutas, nueces, semillas, yemas, flores, hojas, insectos arácnidos y huevos.</string>
+    <string name="habitat_mono">Bosques tropicales.</string>
+    <string name="camada_mono">Una cría.</string>
+    <string name="gestacion_mono">Gestación: 226 a 232 días.</string>
 
     <!--Koala-->
     <string name="nombre_koala">Koala</string>
     <string name="descripcion_koala">
-        Nombre científico: Phascolarctos cinereus.
-        Clase: Mammalia.
-        Orden: Phascolarctos cinereus.
-        Familia: Phascolarctidae (Fascolárctidos o Falangéridos).
-        Alimentación:(herbívoro, carnívoro, omnívoro, etc.).
-        Habitat: vive en las zonas costeras de las regiones este y sur australianas
-        Camada: Como generalidad los Koalas no tienen mas de una cría en cada parto.
-        Gestación: 30-36 días.
-
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry
+        standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
+        a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
+        remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
+        Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
     </string>
+
+    <string name="nombre_cientifico_koala">Phascolarctos cinereus.</string>
+    <string name="clase_koala">Mammalia.</string>
+    <string name="orden_koala">Phascolarctos cinereus.</string>
+    <string name="familia_koala">Phascolarctidae (Fascolárctidos o Falangéridos).</string>
+    <string name="alimento_koala">Herbívoro, carnívoro, omnívoro, etc.</string>
+    <string name="habitat_koala">Vive en las zonas costeras de las regiones este y sur australianas.</string>
+    <string name="camada_koala">Como generalidad los Koalas no tienen mas de una cría en cada parto.</string>
+    <string name="gestacion_koala">30-36 días.</string>
+
 
     <!--Leopardo-->
     <string name="nombre_leopardo">Leopardo</string>
     <string name="descripcion_leopardo">
-        Nombre científico: pantera pardus.
-        Clase: Mammalia.
-        Orden: carnívora.
-        Familia: Felidae.
-        Alimentación: carnívora; principalmente ungulados de pequeños y mediano tamaño, como gacelas, impalas y ciervos, animales domésticos, primates, roedores, aves y a veces artrópodos.
-        camada: 1 a 6 crías.
-        Gestación: 90 a 105 días.
-        Longevidad: 23 años.
-        Situación actual: En peligro de extinción.
-        Distribución geográfica: Del oeste de Turquía y península Malaya, sri Lanka , java y la mayor parte de África.
-
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry
+        standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
+        a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
+        remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
+        Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
     </string>
+    <string name="nombre_cientifico_leopardo">Pantera pardus.</string>
+    <string name="clase_leopardo">Mammalia.</string>
+    <string name="orden_leopardo">Carnívora.</string>
+    <string name="familia_leopardo">Felidae.</string>
+    <string name="alimento_leopardo">Carnívora; principalmente ungulados de pequeños y mediano tamaño, como gacelas, impalas y ciervos, animales domésticos, primates, roedores, aves y a veces artrópodos</string>
+    <string name="habitat_leopardo">Del oeste de Turquía y península Malaya, sri Lanka , java y la mayor parte de África</string>
+    <string name="camada_leopardo">1 a 6 crías</string>
+    <string name="gestacion_leopardo">90 a 105 días</string>
+
 
     <!--Caballo-->
     <string name="nombre_caballo">Caballo</string>
     <string name="descripcion_caballo">
-        Nombre científico:  Equus caballus.
-        Clase: Mammalia.
-        Orden: Perissodactyla.
-        Familia: Equidae.
-        Alimentación: herbívora; se alimenta especialmente de plantas ricas en fíbras.
-        Habitat: zonas esteparias.
-        Camada: una cría.
-        Gestación: 11 meses.
-        situación actual:  Estable.
-        Distribución geográfica: actualmente se haya en todo el mundo.
-
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry
+        standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
+        a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
+        remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
+        Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
     </string>
+
+    <string name="nombre_cientifico_caballo">Equus caballus.</string>
+    <string name="clase_caballo">Mammalia.</string>
+    <string name="orden_caballo">Perissodactyla.</string>
+    <string name="familia_caballo">Equidae</string>
+    <string name="alimento_caballo">Herbívora; se alimenta especialmente de plantas ricas en fíbras.</string>
+    <string name="habitat_caballo">zonas esteparias</string>
+    <string name="camada_caballo">Una cría</string>
+    <string name="gestacion_caballo">11 meses</string>
 
     <!--Puma-->
     <string name="nombre_puma">Puma</string>
     <string name="descripcion_puma">
-        Nombre científico: Felis concolor.
-        Clase: Mammalia.
-        Orden: Carnivora.
-        Familia: Felidae.
-        Alimentación: Carnivora; ciervos principalmente, otros ungulados, puercoespines, liebres y castores.
-        Camada: 1 a 6, siendo mas general 2 3 cachorros.
-        Gestación: 91 días.
-        Longevidad: 8 a 13 años.
-        situación actual: Vulnerable.
-        Distribución geográfica: Desde Canadá hasta el sur de Chile y la Patagonia.
-
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry
+        standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
+        a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
+        remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
+        Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
     </string>
+
+    <string name="nombre_cientifico_puma">Felis concolor</string>
+    <string name="clase_puma">Mammalia</string>
+    <string name="orden_puma">Carnivora</string>
+    <string name="familia_puma">Felidae</string>
+    <string name="alimento_puma">Carnivora; ciervos principalmente, otros ungulados, puercoespines, liebres y castores</string>
+    <string name="habitat_puma">Desde Canadá hasta el sur de Chile y la Patagonia</string>
+    <string name="camada_puma">1 a 6, siendo mas general 2 3 cachorros</string>
+    <string name="gestacion_puma">91 días</string>
 
     <!--Jaguar-->
     <string name="nombre_jaguar">Jaguar</string>
     <string name="descripcion_jaguar">
-        Nombre científico: Panthera onca.
-        Clase: Mammalia.
-        Orden: Carnivora.
-        Familia: Felidae.
-        Alimentación: Carnívora; desde peces, sapos y aves, hasta pecaríes, venados y monos.
-        Habitat: Selva tropical, pantanos y campo abierto, incluso desiertos y pastizales.
-        Camada: 2 crías.
-        Gestaciones: 93 a 105 días.
-        Longevidad: 20 años en cautiverio.
-        situación actual: En peligro de extinción.
-        Distribución geográfica: Suroeste de Estados Unidos hasta la Patagonia.
-
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry
+        standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
+        a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
+        remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
+        Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
     </string>
+
+    <string name="nombre_cientifico_jaguar">Panthera onca</string>
+    <string name="clase_jaguar">Mammalia</string>
+    <string name="orden_jaguar">Carnivora</string>
+    <string name="familia_jaguar">Felidae</string>
+    <string name="alimento_jaguar">Carnívora; desde peces, sapos y aves, hasta pecaríes, venados y monos</string>
+    <string name="habitat_jaguar">Suroeste de Estados Unidos hasta la Patagonia</string>
+    <string name="camada_jaguar">2 crías</string>
+    <string name="gestacion_jaguar">93 a 105 días</string>
 
     <!--Elefante-->
     <string name="nombre_elefante">Elefante</string>
     <string name="descripcion_elefante">
-        Nombre científico: Loxodonta africana.
-        Clase: Mammalia.
-        Orden: Proboscidea.
-        Familia: Elephantidae.
-        Alimentación: Hervibora; hierva, arboles, corteza, frutas, hojas y ramas.
-        Habitat: Bosques tropicales, sabanas, estepas y matorrales semidesérticos.
-        Camada: 1 cria.
-        Gestación: 22 meses.
-        Longevidad: De 50 a 70 años.
-        Situación actual: En peligro de extinción.
-        Distribución geográfica: África, desde las costas del mar mediterráneo, hasta el cabo de Buena Esperanza y actualmente, sur del desierto del Sahara.
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry
+        standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
+        a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
+        remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
+        Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
     </string>
+
+    <string name="nombre_cientifico_elefante">Loxodonta africana</string>
+    <string name="clase_elefante">Mammalia</string>
+    <string name="orden_elefante">Proboscidea</string>
+    <string name="familia_elefante">Elephantidae</string>
+    <string name="alimento_elefante">Hervibora; hierva, arboles, corteza, frutas, hojas y ramas</string>
+    <string name="habitat_elefante">Bosques tropicales, sabanas, estepas y matorrales semidesérticos</string>
+    <string name="camada_elefante">1 cría</string>
+    <string name="gestacion_elefante">22 meses</string>
 
     <!--Leon-->
     <string name="nombre_leon">León</string>
     <string name="descripcion_leon">
-        Nombre científico: Panthera leo.
-        Clase: Mammalia.
-        Orden: Carnivora.
-        Familia: Felidae.
-        Alimentación: Carnívora; principalmente animales de mediano y gran tamaño como ñues, impalas y otros antílopes, cebras, jirafas, búfalos y también carroña.
-        Habitat: Sabana, bosques abiertos y zonas arbustivas.
-        Camada: De 1 a 6 crías.
-        Gestación: 109 días.
-        Longevidad: 29 años en cautiverio.
-        situación actual: Vulnerable.
-        Distribución geográfica: África central y oriental.
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry
+        standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
+        a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
+        remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
+        Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
     </string>
+
+    <string name="nombre_cientifico_leon">Panthera leo</string>
+    <string name="clase_leon">Mammalia</string>
+    <string name="orden_leon">Carnivora</string>
+    <string name="familia_leon">Felidae</string>
+    <string name="alimento_leon">Carnívora; principalmente animales de mediano y gran tamaño como ñues, impalas y otros antílopes, cebras, jirafas, búfalos y también carroña</string>
+    <string name="habitat_leon">Sabana, bosques abiertos y zonas arbustivas</string>
+    <string name="camada_leon">De 1 a 6 crías</string>
+    <string name="gestacion_leon">109 días</string>
 
     <!--Tigre-->
     <string name="nombre_tigre">Tigre</string>
     <string name="descripcion_tigre">
-        Nombre científico: Panthera tigris tigris.
-        Clase: Mammalia.
-        Orden: carnívora.
-        Familia: Felidae.
-        Alimentación: carnívora; principalmente grandes mamíferos como jabalís, ciervos, búfalos y jaguares.
-        Habitat: Bosques tropicales, bosques perennifolios, pantanos, praderas y zonas rocosas.
-        Camada: 2 a 3 crías.
-        Gestación: 104 a 106.
-        Longevidad: 20 a 26 años.
-        situación actual: En peligro de extinción.
-        Distribución geográfica: Este de Turquía al Sureste de Siberia, península Malaya, Sumatra, Java y Bali.
-
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry
+        standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
+        a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
+        remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
+        Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
     </string>
+
+    <string name="nombre_cientifico_tigre">Panthera tigris tigris</string>
+    <string name="clase_tigre">Mammalia</string>
+    <string name="orden_tigre">carnívora</string>
+    <string name="familia_tigre">Felidae</string>
+    <string name="alimento_tigre">carnívora; principalmente grandes mamíferos como jabalís, ciervos, búfalos y jaguares</string>
+    <string name="habitat_tigre">Bosques tropicales, bosques perennifolios, pantanos, praderas y zonas rocosas</string>
+    <string name="camada_tigre">2 a 3 crías</string>
+    <string name="gestacion_tigre">104 a 106</string>
 
     <!--Buho-->
     <string name="nombre_buho">Búho</string>
     <string name="descripcion_buho">
-        Nombre científico: Bubo virginianus.
-        Clase: Aves.
-        Orden: Strigiformes.
-        Familia: Strigidae.
-        Alimentación: carnívora, pequeños mamíferos como: ratones, ratas y ardillas, aves, ranas, reptiles, entre otros animales.
-        Puesta: 2 a 5 huevos.
-        Incubación: 25 días.
-        Habitat: Bosques, tundras, desiertos, entre otros.
-        Longevidad: 28 años.
-        situación actual: Es estable.
-        Distribución geográfica:  Desde Alaska y la península del Labrador, hasta la tierra del fuego, Argentina.
-
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry
+        standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
+        a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
+        remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
+        Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
     </string>
+
+    <string name="nombre_cientifico_buho">Bubo virginianus</string>
+    <string name="clase_buho">Aves</string>
+    <string name="orden_buho">Strigiformes</string>
+    <string name="familia_buho">Strigidae</string>
+    <string name="alimento_buho">carnívora, pequeños mamíferos como: ratones, ratas y ardillas, aves, ranas, reptiles, entre otros animales</string>
+    <string name="habitat_buho">Bosques, tundras, desiertos, entre otros</string>
+    <string name="camada_buho">2 a 5 huevos</string>
+    <string name="gestacion_buho">25 días</string>
 
     <!--Avestruz-->
     <string name="nombre_avestruz">Avestruz</string>
     <string name="descripcion_avestruz">
-        Nombre científico: Struthio camelus.
-        Clase: Aves.
-        Orden: Strutioniformes.
-        Familia: Struthionidae.
-        Alimentación: Herbívora.
-        Puesta: Nido comunal, hembra dominante pone de 5 a 11 huevos y las demás de 2 a 6 cada una.
-        Incubación: 42-48 días.
-        Habitat: Sabana Africana.
-        Longevidad: 30 a 40 años.
-        situación actual: Estable.
-        Distribución geográfica: África.
-
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry
+        standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
+        a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
+        remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
+        Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
     </string>
+
+    <string name="nombre_cientifico_avestruz">Struthio camelus</string>
+    <string name="clase_avestruz">Aves</string>
+    <string name="orden_avestruz">Strutioniformes</string>
+    <string name="familia_avestruz">Struthionidae</string>
+    <string name="alimento_avestruz">Herbívora</string>
+    <string name="habitat_avestruz">Sabana Africana</string>
+    <string name="camada_avestruz">Nido comunal, hembra dominante pone de 5 a 11 huevos y las demás de 2 a 6 cada una</string>
+    <string name="gestacion_avestruz">42-48 días</string>
 
     <!--Descripciones de los cuentos-->
 

@@ -6,4 +6,5 @@ import java.util.List;
 
 public interface IAnimalService {
     List<Animal> listOfAnimals();
+    String substringAnimalDescription(String descripcion, Integer finalSub);
 }
