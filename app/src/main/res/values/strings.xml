@@ -1,8 +1,21 @@
 <resources>
-    <string name="app_name" translatable="false">AnimalZoo</string>
+    <string name="app_name">Kid Zoo</string>
     <string name="titulo_listado_layout">Listado de Animales</string>
 
-    <!--Datos de los animales-->
+    <!--Home Activity-->
+    <string name="saludo">¡Hola! Bienvenido al equipo amigo :)</string>
+    <string name="tematica">
+        Aqui aprenderemos contigo acerca de los animales del zoologico, conoceremos que sonido hace y sus caracateristicas.
+        Y como extra; si acerca muchas veces en el juego una pequeña historia del zoologico te estara esperando. Mucha suerte amigo!
+    </string>
+    <string name="listado">Listado</string>
+    <string name="jugar">Jugar</string>
+
+    <!--Menu-->
+    <string name="menu">Menu</string>
+    <string name="acerca">Acerca de</string>
+    <string name="salir">Salir</string>
+<!--Datos de los animales-->
 
     <!--Mono Araña-->
     <string name="nombre_mono_araña">Mono Araña</string>
