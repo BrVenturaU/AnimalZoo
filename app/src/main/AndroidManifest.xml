@@ -9,8 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".InformacionAnimalesActivity"></activity>
-        <activity android:name=".ListadoAnimalesActivity"></activity>
+        <activity android:name=".InformacionActivity"></activity>
+        <activity android:name=".InformacionAnimalesActivity" />
+        <activity android:name=".ListadoAnimalesActivity" />
         <activity
             android:name=".SplashActivity"
             android:theme="@style/SplashTheme">
@@ -20,8 +21,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".HomeActivity"></activity>
+        <activity android:name=".HomeActivity" />
     </application>
-
 
 </manifest>
