@@ -15,7 +15,7 @@
     <string name="menu">Menu</string>
     <string name="acerca">Acerca de</string>
     <string name="salir">Salir</string>
-<!--Datos de los animales-->
+    <!--Datos de los animales-->
 
     <!--Mono Araña-->
     <string name="nombre_mono_araña">Mono Araña</string>
