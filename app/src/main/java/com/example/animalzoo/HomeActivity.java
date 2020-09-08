@@ -38,17 +38,17 @@ public class HomeActivity extends AppCompatActivity  implements View.OnClickList
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
+        Intent intent = null;
         switch (item.getItemId()) {
             case R.id.Informacion:
-                Intent intent= new Intent(this, InformacionAnimalesActivity.class);
+                intent= new Intent(this, InformacionActivity.class);
                 startActivity(intent);
-                Toast.makeText(getBaseContext(), "Acerca de", Toast.LENGTH_SHORT).show();
                 break;
             case R.id.Salir:
-                Toast.makeText(getBaseContext(), "Salir", Toast.LENGTH_SHORT).show();
                 System.exit(0);
                 break;
         }
+
         return super.onOptionsItemSelected(item);
     }
 
