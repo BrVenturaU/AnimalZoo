@@ -143,7 +143,6 @@ public class InformacionAnimalesActivity extends AppCompatActivity implements
     }
 
     private void releaseAudio(){
-        Toast.makeText(getApplicationContext(), sonidoAnimal == null ? "NULL" : "NOT NULL", Toast.LENGTH_SHORT).show();
         handler.removeCallbacks(UpdateSongTime);
         sonidoAnimal.stop();
         sonidoAnimal.reset();
