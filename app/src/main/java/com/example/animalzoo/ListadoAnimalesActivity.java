@@ -4,8 +4,10 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.view.animation.OvershootInterpolator;
 import android.widget.LinearLayout;
 import android.widget.ScrollView;
 import android.widget.Switch;
@@ -18,6 +20,10 @@ import com.example.animalzoo.Services.AnimalService;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import jp.wasabeef.recyclerview.adapters.AlphaInAnimationAdapter;
+import jp.wasabeef.recyclerview.adapters.ScaleInAnimationAdapter;
+import jp.wasabeef.recyclerview.animators.SlideInUpAnimator;
 
 public class ListadoAnimalesActivity extends AppCompatActivity implements View.OnClickListener {
     private RecyclerView recyclerView;
@@ -39,9 +45,23 @@ public class ListadoAnimalesActivity extends AppCompatActivity implements View.O
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         animalesAdapter = new AnimalesAdapter();
         animalesAdapter.setData(animales, animalService);
-        recyclerView.setAdapter(animalesAdapter);
 
-        animalesAdapter.setOnclicListener(this);
+        AlphaInAnimationAdapter alphaInAnimationAdapter = new AlphaInAnimationAdapter(animalesAdapter);
+        alphaInAnimationAdapter.setDuration(1000);
+        alphaInAnimationAdapter.setInterpolator(new OvershootInterpolator());
+        alphaInAnimationAdapter.setFirstOnly(false);
+        recyclerView.setAdapter(new ScaleInAnimationAdapter(alphaInAnimationAdapter));
+
+
+        animalesAdapter.setOnclicListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                int animalPosition = animales.get(recyclerView.getChildAdapterPosition(view)).getId() - 1;
+                Intent intent = new Intent(ListadoAnimalesActivity.this, InformacionAnimalesActivity.class);
+                intent.putExtra("animalPosition", animalPosition);
+                startActivity(intent);
+            }
+        });
         swTipoSangre.setOnClickListener(this);
     }
 
@@ -59,14 +79,6 @@ public class ListadoAnimalesActivity extends AppCompatActivity implements View.O
                 linearLayout.setVisibility(animales.size()>0 ? View.GONE : View.VISIBLE);
                 animalesAdapter.setData(animales, animalService);
                 recyclerView.setAdapter(animalesAdapter);
-            }
-            default:{
-                animalesAdapter.setOnclicListener(new View.OnClickListener() {
-                    @Override
-                    public void onClick(View view) {
-                        Toast.makeText(getApplicationContext(), "Información Activity", Toast.LENGTH_SHORT).show();
-                    }
-                });
             }
         }
     }

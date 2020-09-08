@@ -7,29 +7,31 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:nestedScrollingEnabled="true">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:padding="18dp">
 
             <TextView
                 android:id="@+id/tvNombreAnimal"
                 android:layout_width="match_parent"
-                android:layout_height="63dp"
-                android:paddingLeft="24dp"
-                android:paddingTop="24dp"
+                android:layout_height="wrap_content"
                 android:text="@string/nombreAnimal"
-                android:textColor="@android:color/black"
-                android:textSize="18sp"
-                android:textStyle="bold" />
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:layout_marginBottom="16dp"/>
 
             <ImageButton
                 android:id="@+id/imgButtonAnimal"
                 style="@android:style/Widget.Holo.ImageButton"
-                android:layout_width="347dp"
-                android:layout_height="210dp"
+                android:layout_width="match_parent"
+                android:layout_height="320dp"
                 android:layout_gravity="center"
                 android:background="@color/colorFondo"
                 android:paddingLeft="24dp"
@@ -39,154 +41,159 @@
                 android:src="@drawable/info_avestruz" />
 
             <TextView
-                android:id="@+id/tvNC"
-                android:textColor="@android:color/black"
+                android:id="@+id/tvDescripcionAnimal"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:paddingLeft="24dp"
-                android:paddingTop="32dp"
-                android:text="@string/nombreCientifico" />
+                android:layout_marginTop="20dp"
+                android:textSize="20sp"
+                android:text="Description" />
+            <TextView
+                android:id="@+id/tvNC"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/nombreCientifico"
+                />
 
             <TextView
                 android:id="@+id/tvNomCientificoAnimal"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:paddingLeft="32dp"
-                android:paddingTop="10dp"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp"
                 android:text="@string/nombreCientifico_Animal" />
 
             <TextView
                 android:id="@+id/tvC"
-                android:textColor="@android:color/black"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20sp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:paddingLeft="24dp"
-                android:paddingTop="32dp"
+                android:layout_marginTop="20dp"
                 android:text="@string/clase" />
 
             <TextView
                 android:id="@+id/tvClaseAnimal"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:paddingLeft="32dp"
-                android:paddingTop="10dp"
-                android:text="@string/claseAnimal"
-                android:paddingStart="32dp" />
+                android:layout_marginTop="10dp"
+                android:textSize="18sp"
+                android:text="@string/claseAnimal" />
 
             <TextView
                 android:id="@+id/tvO"
-                android:textColor="@android:color/black"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20sp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:paddingLeft="24dp"
-                android:paddingTop="32dp"
-                android:text="@string/orden"
-                android:paddingStart="24dp" />
+                android:layout_marginTop="20dp"
+                android:text="@string/orden" />
 
             <TextView
                 android:id="@+id/tvOrdenAnimal"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:paddingLeft="32dp"
-                android:paddingTop="10dp"
-                android:text="@string/ordenAnimal"
-                android:paddingStart="32dp" />
+                android:layout_marginTop="10dp"
+                android:textSize="18sp"
+                android:text="@string/ordenAnimal" />
 
             <TextView
                 android:id="@+id/tvF"
-                android:textColor="@android:color/black"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20sp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:paddingLeft="24dp"
-                android:paddingTop="32dp"
+                android:layout_marginTop="20dp"
                 android:text="@string/familia" />
 
             <TextView
                 android:id="@+id/tvFamiliaAnimal"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:paddingLeft="32dp"
-                android:paddingTop="10dp"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp"
                 android:text="@string/familiaAnimal" />
 
             <TextView
                 android:id="@+id/tvA"
-                android:textColor="@android:color/black"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20sp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:paddingLeft="24dp"
-                android:paddingTop="32dp"
+                android:layout_marginTop="20dp"
                 android:text="@string/alimentacion" />
 
             <TextView
                 android:id="@+id/tvAlimentacionAnimal"
                 android:layout_width="match_parent"
-                android:layout_height="60dp"
-                android:paddingLeft="32dp"
-                android:paddingTop="10dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp"
                 android:text="@string/alimentacionAnimal" />
 
             <TextView
                 android:id="@+id/tvH"
-                android:textColor="@android:color/black"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20sp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:paddingLeft="24dp"
-                android:paddingTop="32dp"
+                android:layout_marginTop="20dp"
                 android:text="@string/habitat" />
 
             <TextView
                 android:id="@+id/tvHabitatAnimal"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:paddingLeft="32dp"
-                android:paddingTop="10dp"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp"
                 android:text="@string/habitatAnimal" />
 
             <TextView
                 android:id="@+id/tvCP"
-                android:textColor="@android:color/black"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20sp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:paddingLeft="24dp"
-                android:paddingTop="32dp"
+                android:layout_marginTop="20dp"
                 android:text="@string/camada" />
 
             <TextView
                 android:id="@+id/tvCamadaAnimal"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:paddingLeft="32dp"
-                android:paddingTop="10dp"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp"
                 android:text="@string/camadaAnimal" />
 
             <TextView
                 android:id="@+id/tvG"
-                android:textColor="@android:color/black"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20sp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:paddingLeft="24dp"
-                android:paddingTop="32dp"
+                android:layout_marginTop="20dp"
                 android:text="@string/gestacion" />
 
             <TextView
                 android:id="@+id/tvGestacionAnimal"
                 android:layout_width="match_parent"
                 android:layout_height="32dp"
-                android:paddingLeft="32dp"
-                android:paddingTop="10dp"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp"
                 android:text="@string/gestacionAnimal" />
-
-            <Button
-                android:id="@+id/btnSilenciar"
-                style="@android:style/Widget.DeviceDefault.Button.Colored"
-                android:layout_width="120dp"
-                android:layout_height="45dp"
-                android:layout_gravity="center"
-                android:layout_margin="30dp"
-                android:background="@color/colorPrimary"
-                android:text="Silenciar"
-                android:textColor="@color/colorFondo" />
         </LinearLayout>
     </ScrollView>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btnSilenciar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="Silenciar"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/ic_play"/>
 </RelativeLayout>

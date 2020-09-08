@@ -78,7 +78,7 @@ public class AnimalService implements IAnimalService {
                 R.string.clase_camaleon, R.string.orden_camaleon, R.string.familia_camaleon, R.string.alimento_camaleon,
                 R.string.habitat_camaleon, R.string.camada_camaleon, R.string.gestacion_camaleon);
 
-        Animal cocodrilo = new Animal(13, R.string.nombre_cientifico_cocodrilo, R.string.descripcion_cocodrilo,
+        Animal cocodrilo = new Animal(13, R.string.nombre_cocodrilo, R.string.descripcion_cocodrilo,
                 R.drawable.info_cocodrilo, R.raw.cocodrilo, R.drawable.ic_cocodrilo, true, R.string.nombre_cientifico_cocodrilo,
                 R.string.clase_cocodrilo, R.string.orden_cocodrilo, R.string.familia_cocodrilo, R.string.alimento_cocodrilo,
                 R.string.habitat_cocodrilo, R.string.camada_cocodrilo, R.string.gestacion_cocodrilo);
