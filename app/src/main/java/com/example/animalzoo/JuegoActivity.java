@@ -72,12 +72,12 @@ public class JuegoActivity extends AppCompatActivity implements View.OnClickList
     public void onClick(View view) {
         switch (view.getId()){
             case R.id.btnConfirmar:{
-                btnSonido.setVisibility(View.GONE);
-                releaseAudio();
                 String nombreAnimal = etNombreAnimal.getText().toString();
                 if(nombreAnimal.isEmpty() || nombreAnimal.length()==0 || nombreAnimal.equals(""))
                     Toast.makeText(JuegoActivity.this, "Escribe el nombre del animal", Toast.LENGTH_SHORT).show();
                 else{
+                    btnSonido.setVisibility(View.GONE);
+                    releaseAudio();
                     String nombreMinuscula = nombreAnimal.toLowerCase();
                     String nombreMayuscula = nombreAnimal.toUpperCase();
                     String nombreAnimalMinuscula = getString(animal.getNombre()).toLowerCase();
