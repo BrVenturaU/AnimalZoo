@@ -100,7 +100,6 @@ public class InformacionAnimalesActivity extends AppCompatActivity implements
 
     @Override
     protected void onDestroy() {
-
         if(sonidoAnimal != null)
             releaseAudio();
         super.onDestroy();
@@ -138,7 +137,7 @@ public class InformacionAnimalesActivity extends AppCompatActivity implements
                 releaseAudio();
             }
         }catch (Exception ex){
-            Toast.makeText(InformacionAnimalesActivity.this, "La canción ya se detuvo", Toast.LENGTH_SHORT).show();
+            Toast.makeText(InformacionAnimalesActivity.this, "El sonido del animal ya se detuvo.", Toast.LENGTH_SHORT).show();
         }
     }
 
