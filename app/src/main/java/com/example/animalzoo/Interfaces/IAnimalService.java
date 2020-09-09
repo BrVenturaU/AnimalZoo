@@ -7,6 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public interface IAnimalService {
+    Integer getItemCount();
     ArrayList<Animal> listOfAnimals();
     String substringAnimalDescription(String descripcion, Integer finalSub);
     ArrayList<Animal> coldBloodAnimalsList();

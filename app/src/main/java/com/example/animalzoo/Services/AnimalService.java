@@ -15,6 +15,10 @@ public class AnimalService implements IAnimalService {
 
     }
 
+    public Integer getItemCount(){
+        return listOfAnimals().size();
+    }
+
     @Override
     public ArrayList<Animal> listOfAnimals(){
         //Creando Animales

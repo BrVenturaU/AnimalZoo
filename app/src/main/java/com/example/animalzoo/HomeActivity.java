@@ -63,7 +63,7 @@ public class HomeActivity extends AppCompatActivity  implements View.OnClickList
             }
 
             case R.id.btnJugar:{
-                Toast.makeText(HomeActivity.this, "Jugar", Toast.LENGTH_SHORT).show();
+                intent = new Intent(HomeActivity.this, JuegoActivity.class);
                 break;
             }
         }
